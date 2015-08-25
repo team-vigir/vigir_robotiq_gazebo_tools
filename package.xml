@@ -1,0 +1,20 @@
+<package>
+  <name>vigir_robotiq_gazebo_tools</name>
+  <version>0.0.1</version>
+  <description>
+     vigir_robotiq_gazebo_tools
+  </description>
+  <maintainer email="romay@sim.tu-darmstadt.de">Alberto Romay</maintainer>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/vigir_robotiq_gazebo_tools</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>robotiq_s_model_control</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+
+  <run_depend>robotiq_s_model_control</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+
+</package>
